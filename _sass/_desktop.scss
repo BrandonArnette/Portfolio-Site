@@ -1,0 +1,127 @@
+#navbar{    
+    font-family: Passion One;
+    font-size: 2em;
+    position: fixed;
+    color: #607625;
+    height: 100%;
+    width: 230px;
+    float: left;    
+    text-shadow: 0px 4px 5px #000;
+    
+}
+
+        #navbar p{
+            margin-top:  20px;
+            text-align: center;
+            font-family: Righteous;
+            font-size: 1.8em;
+            cursor: default;
+        }
+
+        #navbar ul{
+            list-style-type: none;
+            text-align: right;
+            margin-right: 15%;
+            margin-top: 110%;
+        }
+
+        #navbar li {
+            margin-top: 15%;
+            cursor: pointer;
+            transition: ease-in-out, margin-right .1s ease-in-out;
+        }
+
+        #navbar li + li{
+            color:#3d3d3d;
+        }        
+
+        #navbar li:hover{
+            margin-right: -5%;
+        }
+
+
+
+
+
+#aboutWrapper{
+    
+    margin-left: 230px;
+    color: #CCCCCC;  
+    font-family: Passion One;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 140px;
+    min-width: 75%;
+}
+
+#servicesWrapper{
+    
+    margin-left: 230px;            
+}
+#portfolioWrapper{
+    
+    margin-left: 230px;            
+}
+#contactWrapper{
+    
+    margin-left: 230px;            
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
+.test{
+    float:left;
+    width: 300px;
+    height:300px;
+    background-color:brown;
+    margin: 40px;
+}
+.test2{
+    float:left;
+    width: 300px;
+    height:300px;
+    background-color:coral;
+    margin: 40px;
+    
+}
+.test3{
+    float:left;
+    width: 300px;
+    height:300px;
+    background-color:cornflowerblue;
+    margin: 40px;
+    
+}
+.test4{
+    float:left;
+    width: 300px;
+    height:300px;
+    background-color:darkolivegreen;
+    margin: 40px;
+    
+}
+
+
+
+.twitter-follow-button{    
+    margin-left: 46px;
+}
+.fb-like{
+    margin-left: 45px;
+    margin-top: 300px;    
+}
+
+.box1{
+    width: 30%;
+    height: 60vh; 
+    background-color: aqua;
+}
