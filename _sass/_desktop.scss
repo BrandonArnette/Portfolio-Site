@@ -1,13 +1,13 @@
-#navbar{    
+#navbar{
     font-family: Passion One;
     font-size: 2em;
     position: fixed;
     color: #607625;
     height: 100%;
     width: 230px;
-    float: left;    
-    text-shadow: 0px 4px 5px #000;
-    
+    float: left;
+    text-shadow: 0px 4px 5px #000000;
+
 }
 
         #navbar p{
@@ -33,7 +33,7 @@
 
         #navbar li + li{
             color:#3d3d3d;
-        }        
+        }
 
         #navbar li:hover{
             margin-right: -5%;
@@ -44,9 +44,9 @@
 
 
 #aboutWrapper{
-    
+
     margin-left: 230px;
-    color: #CCCCCC;  
+    color: #CCCCCC;
     font-family: Passion One;
     font-size: 4em;
     text-align: center;
@@ -55,16 +55,16 @@
 }
 
 #servicesWrapper{
-    
-    margin-left: 230px;            
+
+    margin-left: 230px;
 }
 #portfolioWrapper{
-    
-    margin-left: 230px;            
+
+    margin-left: 230px;
 }
 #contactWrapper{
-    
-    margin-left: 230px;            
+
+    margin-left: 230px;
 }
 
 .noselect {
@@ -91,7 +91,7 @@
     height:300px;
     background-color:coral;
     margin: 40px;
-    
+
 }
 .test3{
     float:left;
@@ -99,7 +99,7 @@
     height:300px;
     background-color:cornflowerblue;
     margin: 40px;
-    
+
 }
 .test4{
     float:left;
@@ -107,21 +107,21 @@
     height:300px;
     background-color:darkolivegreen;
     margin: 40px;
-    
+
 }
 
 
 
-.twitter-follow-button{    
+.twitter-follow-button{
     margin-left: 46px;
 }
 .fb-like{
     margin-left: 45px;
-    margin-top: 300px;    
+    margin-top: 300px;
 }
 
 .box1{
     width: 30%;
-    height: 60vh; 
+    height: 60vh;
     background-color: aqua;
 }

@@ -1,84 +1,196 @@
-$primaryColor: #607625;
-$secondaryColor: #3d3d3d;
-$textColor: #CCCCCC;
-
-#navbar{    
-        
-    color: $primaryColor;
-    height: 70px;
-    width: 100%;
-    position: fixed;
-    text-shadow: 0px 4px 5px #000;
-     z-index: 9999;
-    background-color: black;
-    padding-bottom: 10px;
-        
-}
-
-    #navbar p{            
-        text-align: center;
-        font-family: Righteous;
-        font-size: calc(1.6em + 1.5vw);
-        cursor: default;
-    }
-
-    #navbar ul{
-        list-style-type: none;
-        
-    }
-
-    #navbar li {                
-        font-family: Passion One;
-        font-size: calc(1em + 1.5vw);
-        cursor: pointer;        
-        float:left;
-        width: 25%;
-        text-align: center;        
-    }
-
-    #navbar li + li{
-        color:$secondaryColor;
-    }        
-
+$primaryColor: #5C8D3B;
+$secondaryColor: #232323;
+$textColor: #232323;
 
 #mainWrapper{
-    width: 100%;
-    
-
+    width: 100%;    
 }
+
+//Navbar-------------------------------
+#navbar{
+    position: fixed;
+    height: calc(34px + 1vw);
+    width: 100%;
+    z-index: 9999;
+    
+    color: $primaryColor;
+    text-shadow: 0px 1px 1px #000;
+    background-color: $secondaryColor;            
+        
+    padding-bottom: 7px;        
+}
+
+#headerLogo{        
+    float: left;
+    font-family: Righteous;
+    font-size: calc(1.6em + 1.5vw);
+    cursor: default;
+    
+    padding-left: 10px;     
+}    
+
+#headerText {
+    position: absolute;
+    width: 100vw;
+    overflow-x: hidden;
+    
+    color:$primaryColor;
+    font-family: Passion One;
+    font-size: calc(1.6em + 1.5vw);    
+    cursor: default;
+    text-align: center;
+    
+    padding-top: 4px;            
+}
+
+#headerMenu{
+    hr{ //Temp---------       
+        width: 60%;
+        margin-left: 10px;
+        height: 2px;
+        background-color: $primaryColor;
+        border-color: $primaryColor;
+        border-bottom: 1px solid black;
+        
+        margin-top: calc(6px + .4vw);        
+    }
+    float:right;
+    height: 41px;
+    width: calc(60px + 1vw);
+    
+}
+//----------------------------------------------
 
 #contentWrapper{
+    position: relative;
+    top: calc(34px + 2vh);
     
     font-family: Passion One;
-    font-size: 3em;
+    font-size: calc(0.9em + 1vw);
     text-align: center;
+    
+    color:$secondaryColor;    
+}
+
+
+#aboutWrapper{
+
+    padding-top: 20px;
+    //padding-bottom: 200px;
+    color: $textColor;
+    background-color:#78cbd5;
     position: relative;
-    top: calc(65px + 2vh);
-    color: $textColor; 
+    z-index: 100;
+    p{
+        padding-bottom: 10px;
+    }
     
 
     
-
 }
 
-.box1{
-    width: 100%;
-    height: 60vh; 
-    background-color: aqua;
-    
+#aboutHeading{
+     h1{
+        font-family: Passion One;
+        font-size: calc(1em + 4.5vw);
+        text-align: center;
+        padding-top: 10px;
+         
+        @include AS-LeftRight(2.8s);
+    }
+    hr{
+        width: calc(80%);
+        margin-left: calc(10%);
+        background-color: $textColor;
+        border-color: $textColor;
+        @include AS-SlideInLeft(7s);
+        
+    }
+    p{
+        margin-top: 4px;
+        font-family: Passion One;
+        font-size: calc(0.3em + 4.5vw);
+        @include AS-LeftRight(3.5s);
+        
+    }    
+    margin-bottom: 20px;
+}
+
+#aboutTextHeader{
+    padding-left: 20px;
+    padding-right: 20px;
+    @include AS-SlideInLeft(5s);
+    font-size: 1.4em;
     
 }
-.box2{
-    width: 100%;
-    height: 60vh; 
-    background-color:$primaryColor;
+
+#aboutText{
+    padding-left: 20px;
+    padding-right: 20px;
     
+    @include AS-LeftRight(5s);
+}
+
+#cube1{
+    height: 40px;
+    width: 40px;
+    margin-left: calc(50% - 20px);
+    background-color: $primaryColor;
+    //@include AS-Cube;
+    @include AS-SlideInLeft(3s);
+    margin-bottom: 10px;
+}
+#cube2{
+    height: 40px;
+    width: 40px;
+    margin-left: calc(50% - 20px);
+    background-color: $primaryColor;
+    //@include AS-Cube;
+    @include AS-SlideInLeft(4s);
+    margin-bottom: 10px;
+}
+#cube3{
+    height: 40px;
+    width: 40px;
+   margin-left: calc(50% - 20px);
+    background-color: $primaryColor;
+    //@include AS-Cube;
+    @include AS-SlideInLeft(5s);
+    margin-bottom: 10px;
+}
+#cube4{
+    height: 40px;
+    width: 40px;
+    margin-left: calc(50% - 20px);
+    background-color: $primaryColor;
+    //@include AS-Cube;
+    @include AS-SlideInLeft(6s);
+    margin-bottom: 10px;
+}
+
+
+
+
+#servicesWrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $textColor;
+    background-color:cadetblue;
+    position: relative;
+    z-index: 99;
+}
+
+#portfolioWrapper{
+    background-color: darkgoldenrod;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $textColor;
+    height: 400px;
+    position: relative;
+}
+
+#contactWrapper{
+    background-color: forestgreen;
     
 }
-.box3{
-    width: 100%;
-    height: 60vh; 
-    background-color:chartreuse;
-    
-    
-}
+

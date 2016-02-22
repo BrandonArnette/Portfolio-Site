@@ -5,7 +5,8 @@
 
 html{    
     height: 100%;    
-    background-image: url("../_img/background.png");    
+    //background-image: url("../_img/background.png");    
+    background-color: #232323;
 }
 
 body, #mainWrapper{    
@@ -18,6 +19,7 @@ body, #mainWrapper{
 
 #res{
     position: absolute;
+    top:460px;
     z-index: 99999;
 }
 .res1{        

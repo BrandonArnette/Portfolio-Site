@@ -10,9 +10,9 @@ $("#resH").text("H:" + $( window ).height());
 
 
 
-$("#servicesWrapper").hide();
-$("#portfolioWrapper").hide();
-$("#contactWrapper").hide();
+//$("#servicesWrapper").hide();
+//$("#portfolioWrapper").hide();
+//$("#contactWrapper").hide();
 
 
 $("#navAbout").click(function(){

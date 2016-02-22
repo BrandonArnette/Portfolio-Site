@@ -1,12 +1,15 @@
 @import "_generic.scss";
+@import "_animation.scss";
+@import "_grids.scss";
 
+@import "_mobile.scss";
 
-@media (max-width:820px){
-	@import "_mobile.scss";
-}
-@media (min-width:821px) and (max-width: 1199px) {
-	@import "_tablet.scss";
-}
-@media (min-width:1200px){
-	@import "_desktop.scss";
-}
+//@media (max-width:820px){
+//	@import "_mobile.scss";
+//}
+//@media (min-width:821px) and (max-width: 1199px) {
+//	@import "_tablet.scss";
+//}
+//@media (min-width:1200px){
+//	@import "_desktop.scss";
+//}
