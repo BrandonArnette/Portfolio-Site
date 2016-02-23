@@ -22,7 +22,7 @@ body, #mainWrapper {
 
 @keyframes AS-LeftRight-A1 {
   0% {
-    transform: translateY(200px); }
+    transform: translateY(800px); }
   100% {
     transform: translateY(0px); } }
 @keyframes AS-LeftRight-A2 {
@@ -115,16 +115,17 @@ body, #mainWrapper {
   color: #232323; }
 
 #aboutWrapper {
-  padding-top: 20px;
   color: #232323;
   background-color: #78cbd5;
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+  height: 100vh; }
   #aboutWrapper p {
     padding-bottom: 10px; }
 
 #aboutHeading {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-top: 8vh; }
   #aboutHeading h1 {
     font-family: Passion One;
     font-size: calc(1em + 4.5vw);
@@ -160,6 +161,8 @@ body, #mainWrapper {
 #aboutText {
   padding-left: 20px;
   padding-right: 20px;
+  line-height: 140%;
+  font-size: calc(0.5em + 2.5vw);
   animation-name: AS-LeftRight-A1;
   animation-duration: 5s;
   animation-iteration-count: 1; }

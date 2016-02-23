@@ -6,7 +6,7 @@ $textColor: #232323;
     width: 100%;    
 }
 
-//Navbar-------------------------------
+//Navbar---------------------------------------
 #navbar{
     position: fixed;
     height: calc(34px + 1vw);
@@ -19,7 +19,6 @@ $textColor: #232323;
         
     padding-bottom: 7px;        
 }
-
 #headerLogo{        
     float: left;
     font-family: Righteous;
@@ -28,7 +27,6 @@ $textColor: #232323;
     
     padding-left: 10px;     
 }    
-
 #headerText {
     position: absolute;
     width: 100vw;
@@ -42,7 +40,6 @@ $textColor: #232323;
     
     padding-top: 4px;            
 }
-
 #headerMenu{
     hr{ //Temp---------       
         width: 60%;
@@ -72,15 +69,16 @@ $textColor: #232323;
     color:$secondaryColor;    
 }
 
-
+//About---------------------------------------
 #aboutWrapper{
 
-    padding-top: 20px;
+    
     //padding-bottom: 200px;
     color: $textColor;
     background-color:#78cbd5;
     position: relative;
     z-index: 100;
+    height: 100vh;
     p{
         padding-bottom: 10px;
     }
@@ -88,9 +86,8 @@ $textColor: #232323;
 
     
 }
-
 #aboutHeading{
-     h1{
+    h1{
         font-family: Passion One;
         font-size: calc(1em + 4.5vw);
         text-align: center;
@@ -114,8 +111,8 @@ $textColor: #232323;
         
     }    
     margin-bottom: 20px;
+    padding-top: 8vh;
 }
-
 #aboutTextHeader{
     padding-left: 20px;
     padding-right: 20px;
@@ -123,13 +120,16 @@ $textColor: #232323;
     font-size: 1.4em;
     
 }
-
 #aboutText{
     padding-left: 20px;
     padding-right: 20px;
     
+    line-height: 140%;
+    font-size: calc(0.5em + 2.5vw);
     @include AS-LeftRight(5s);
 }
+
+
 
 #cube1{
     height: 40px;
@@ -168,7 +168,7 @@ $textColor: #232323;
     margin-bottom: 10px;
 }
 
-
+//--------------------------------------------
 
 
 #servicesWrapper{
